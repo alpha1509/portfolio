@@ -1,16 +1,16 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "panupong-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Panupong's portfolio",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Panupong Chimmai",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
