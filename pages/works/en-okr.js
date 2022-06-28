@@ -36,34 +36,15 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} mt={6}>
-        Features
-      </Heading>
-      <UnorderedList mt={2} mb={6}>
-        <ListItem>Collect data from the sensor every 5 minutes</ListItem>
-        <ListItem>Automatically take 6 pictures of the cactus a day</ListItem>
-        <ListItem>Store data on firebase cloud</ListItem>
-        <ListItem>Visualize data on android application</ListItem>
-      </UnorderedList>
-
-      <WorkImage src="/images/works/smart-cactus-01.png" alt="smart cactus" />
-      <WorkImage src="/images/works/smart-cactus-02.png" alt="smart cactus" />
-      <WorkImage src="/images/works/smart-cactus-03.png" alt="smart cactus" />
-      <WorkImage src="/images/works/smart-cactus-04.png" alt="smart cactus" />
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/smart-cactus-05.png" alt="smart cactus" />
-        <WorkImage src="/images/works/smart-cactus-06.png" alt="smart cactus" />
-      </SimpleGrid>
-      <WorkImage src="/images/works/smart-cactus-07.png" alt="smart cactus" />
-      <SimpleGrid columns={3} gap={2}>
-        <WorkImage src="/images/works/smart-cactus-08.png" alt="smart cactus" />
-        <WorkImage src="/images/works/smart-cactus-09.png" alt="smart cactus" />
-        <WorkImage src="/images/works/smart-cactus-10.png" alt="smart cactus" />
-      </SimpleGrid>
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/smart-cactus-11.png" alt="smart cactus" />
-        <WorkImage src="/images/works/smart-cactus-12.png" alt="smart cactus" />
-      </SimpleGrid>
+      <WorkImage src="/images/works/en-okr-01.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-02.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-03.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-04.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-05.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-06.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-07.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-08.png" alt="EN KKU OKR" />
+      <WorkImage src="/images/works/en-okr-09.png" alt="EN KKU OKR" />
     </Container>
   </Layout>
 )
