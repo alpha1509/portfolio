@@ -74,7 +74,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/computer.glb', {
+      loadGLTFModel(scene, '/halloween.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
@@ -93,7 +93,7 @@ const VoxelDog = () => {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-          camera.zoom = 0.5
+          camera.zoom = 0.9
           camera.updateProjectionMatrix()
 
           camera.position.y = 0
