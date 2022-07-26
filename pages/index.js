@@ -128,6 +128,13 @@ const Home = () => (
           Graduated with a bachelor's degree in Computer Engineering from Khon
           Kaen University with first-class honors
         </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Started working as a full-time software engineer at{' '}
+          <Link href="https://wisesight.com/" target="_blank">
+            WISESIGHT
+          </Link>
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
