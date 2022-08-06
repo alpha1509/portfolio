@@ -187,7 +187,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/alpha1509" target="_blank">
+            <Link href="https://github.com/alphanomy" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
