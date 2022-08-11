@@ -193,7 +193,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @alpha1509
+                @alphamomy
               </Button>
             </Link>
           </ListItem>
