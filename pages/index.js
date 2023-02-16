@@ -19,8 +19,14 @@ import { IoLogoLinkedin, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 import {
   initializeGoogleAnalytics,
-  trackGoogleAnalyticsSearchEvent
+  trackGoogleAnalyticsCustomEvent
 } from '../utils/google-analytics/index'
+import {
+  socialCategory,
+  githubClickAction,
+  linkedinClickAction,
+  instagramClickAction
+} from '../utils/google-analytics/events/socials'
 
 initializeGoogleAnalytics()
 
@@ -93,11 +99,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button
-              rightIcon={<ChevronRightIcon />}
-              onClick={trackGoogleAnalyticsSearchEvent('Portfolio Clicked!')}
-              colorScheme="teal"
-            >
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
@@ -202,6 +204,11 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
+                onClick={trackGoogleAnalyticsCustomEvent(
+                  socialCategory,
+                  githubClickAction,
+                  '@alphanomy'
+                )}
               >
                 @alphamomy
               </Button>
@@ -216,6 +223,11 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
+                onClick={trackGoogleAnalyticsCustomEvent(
+                  socialCategory,
+                  linkedinClickAction,
+                  '@Panupong Chimmai'
+                )}
               >
                 @Panupong Chimmai
               </Button>
@@ -227,6 +239,11 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
+                onClick={trackGoogleAnalyticsCustomEvent(
+                  socialCategory,
+                  instagramClickAction,
+                  '@alphanomy_'
+                )}
               >
                 @alphanomy_
               </Button>
