@@ -17,6 +17,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoLinkedin, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
+import {
+  initializeGoogleAnalytics,
+  trackGoogleAnalyticsSearchEvent
+} from '../utils/google-analytics/index'
+
+initializeGoogleAnalytics()
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -87,7 +93,11 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              onClick={trackGoogleAnalyticsSearchEvent('Portfolio Clicked!')}
+              colorScheme="teal"
+            >
               My portfolio
             </Button>
           </NextLink>
