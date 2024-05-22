@@ -5,9 +5,9 @@ const Footer = () => {
     <Box align="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} Panupong Chimmai. Based on{' '}
       <Link href="https://www.craftz.dog/" target="_blank">
-        craftzdog
+        Takuya Matsuyama
       </Link>
-      .
+      's website.
     </Box>
   )
 }
