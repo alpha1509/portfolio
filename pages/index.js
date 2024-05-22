@@ -45,7 +45,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        👋 Hello, I&apos;m a developer based in Thailand!
+        👋 Sawasdee Krub, I&apos;m a developer based in Bangkok!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -56,7 +56,9 @@ const Home = () => (
           <Heading as="h4" size="md" textAlign="center">
             - Alpha -
           </Heading>
-          <p style={{ textAlign: 'center' }}>Junior Software Engineer</p>
+          <p style={{ textAlign: 'center' }}>
+            Software Engineer / Full-Stack Developer
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,7 +77,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/alpha-2.png"
+              src="/images/alpha-3.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -90,12 +92,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Panupong is a passionate, adaptable and responsible Computer
-          Engineering new graduate seeking a Software Engineer or related
-          position which will utilise the professional and technical skills
-          developed through past work experiences in this field. He is familiar
-          with web development, capable in both frontend and backend. He enjoys
-          coding and always excited to learn new things.
+          Alpha is a dedicated and versatile Computer Engineering graduate eager
+          to contribute as a Software Engineer or in a related role. I possess
+          strong professional and technical skills honed through various work
+          experiences. Proficient in working within agile environments, I have
+          substantial expertise in web development, encompassing both frontend
+          and backend technologies. With hands-on experience in AWS, I am
+          passionate about clean coding and continuously expanding my knowledge
+          of emerging technologies.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -112,33 +116,33 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2000</BioYear>
-          Born in Bangkok, Thailand
+          Born in Bangkok, Thailand.
         </BioSection>
         <BioSection>
           <BioYear>2006</BioYear>
-          Moved to Mahasarakham, Thailand
+          Moved to Mahasarakham, Thailand.
         </BioSection>
         <BioSection>
           <BioYear>2012</BioYear>
           Graduated elementary school from the Holy Infant Jesus Mahasarakham
-          School
+          School.
         </BioSection>
         <BioSection>
           <BioYear>2015</BioYear>
-          Graduated middle school from Phadungnaree School
+          Graduated middle school from Phadungnaree School.
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Graduated high school from Sarakhampittayakhom School
+          Graduated high school from Sarakhampittayakhom School.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Intern as a programmer at AERO Group (1992) for 3 months
+          Intern as a programmer at AERO Group (1992) for 3 months.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           Graduated with a bachelor's degree in Computer Engineering from Khon
-          Kaen University with first-class honors
+          Kaen University with first-class honors.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -146,6 +150,17 @@ const Home = () => (
           <Link href="https://wisesight.com/" target="_blank">
             WISESIGHT
           </Link>
+          .
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Entered military service at 12th Military District, located in
+          Prachinburi. Active duty for 1 year. 🎖️
+        </BioSection>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          Looking for a job as Software Engineer, Full-Stack Developer, Backend
+          Developer, or related position. 🧐
         </BioSection>
       </Section>
 
@@ -158,22 +173,22 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>-</BioYear>
-          JavaScript, HTML/CSS, Python, TypeScript, Java, C/C++, PHP, SQL
+          JavaScript, TypeScript, HTML/CSS, Python, Java, C/C++, PHP, SQL
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Frameworks / Libraries</BioYear>
         </BioSection>
         <BioSection>
           <BioYear>-</BioYear>
-          NodeJS, ExpressJS, ReactJS, Material UI, Bootstrap 5, Laravel
+          NodeJS, ExpressJS, ReactJS, NextJS, Material UI, Bootstrap 5, Laravel, Jest, PyTest
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Software / Tools</BioYear>
         </BioSection>
         <BioSection>
           <BioYear>-</BioYear>
-          Docker, Git, Postman, Adobe XD, MySQL, MongoDB, Firebase, Linux,
-          Arduino IDE, Wireshark, VMware, Adobe Photoshop
+          Docker, Git, Postman, MySQL, PosgtreSQL, MongoDB, Firebase, Linux,
+          AWS, Arduino IDE, Adobe XD, Adobe Photoshop
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Hardware</BioYear>
