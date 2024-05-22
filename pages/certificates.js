@@ -3,6 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
+import thumbSeInternCert from '../public/images/contents/se-intern-cert.png'
+import thumbFeReactCert from '../public/images/contents/fe-react-cert.png'
+import thumbRestCert from '../public/images/contents/rest-cert.png'
+import thumbGoCert from '../public/images/contents/go-cert.png'
 import thumbJavascriptCert from '../public/images/contents/javascript-cert.png'
 import thumbNodeCert from '../public/images/contents/node-cert.png'
 import thumbPythonCert from '../public/images/contents/python-cert.png'
@@ -19,6 +23,50 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <GridItem
+            id="fe-react-cert"
+            title="Frontend Developer (React)"
+            thumbnail={thumbFeReactCert}
+            href="https://www.hackerrank.com/certificates/b1086333b93e"
+          >
+            <p>
+              <Badge>May 2024</Badge>
+            </p>
+            HackerRank
+          </GridItem>
+          <GridItem
+            id="se-intern-cert"
+            title="Software Engineer Intern"
+            thumbnail={thumbSeInternCert}
+            href="https://www.hackerrank.com/certificates/359101e01bc2"
+          >
+            <p>
+              <Badge>May 2024</Badge>
+            </p>
+            HackerRank
+          </GridItem>
+          <GridItem
+            id="rest-cert"
+            title="Rest API (Intermediate)"
+            thumbnail={thumbRestCert}
+            href="https://www.hackerrank.com/certificates/d77dc3208429"
+          >
+            <p>
+              <Badge>May 2024</Badge>
+            </p>
+            HackerRank
+          </GridItem>
+          <GridItem
+            id="go-cert"
+            title="Go (Basic)"
+            thumbnail={thumbGoCert}
+            href="https://www.hackerrank.com/certificates/b4e87d20ca84"
+          >
+            <p>
+              <Badge>May 2024</Badge>
+            </p>
+            HackerRank
+          </GridItem>
           <GridItem
             id="javascript-cert"
             title="JavaScript (Intermediate)"
@@ -63,11 +111,6 @@ const Posts = () => (
             </p>
             HackerRank
           </GridItem>
-        </SimpleGrid>
-      </Section>
-
-      <Section delay={0.3}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             id="sql-cert"
             title="SQL (Basic)"
@@ -80,7 +123,7 @@ const Posts = () => (
             HackerRank
           </GridItem>
           <GridItem
-            id="sql-cert"
+            id="lcc-cert"
             title="LINK CAMPUS CABLING"
             thumbnail={thumbLinkCert}
             href="/images/contents/link-cabling.jpg"
