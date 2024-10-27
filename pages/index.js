@@ -146,11 +146,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Started working as a full-time software engineer at{' '}
+          Started working as a full-time Software Engineer at{' '}
           <Link href="https://wisesight.com/" target="_blank">
             WISESIGHT
           </Link>
-          .
+          . Served for nearly a year.
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
@@ -159,8 +159,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          Looking for a job as Software Engineer, Full-Stack Developer, Backend
-          Developer, or related position. 🧐
+          Excited to join the{' '}
+          <Link href="https://www.shipnity.com/" target="_blank">
+            Shipnity
+          </Link>{' '}
+          team as a full-time Full Stack Developer! 🤩💻
         </BioSection>
       </Section>
 
@@ -173,14 +176,14 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>-</BioYear>
-          JavaScript, TypeScript, HTML/CSS, Python, Java, C/C++, PHP, SQL
+          JavaScript, TypeScript, HTML/CSS, Go, Python, C/C++, PHP, SQL
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Frameworks / Libraries</BioYear>
         </BioSection>
         <BioSection>
           <BioYear>-</BioYear>
-          NodeJS, ExpressJS, ReactJS, NextJS, Material UI, Bootstrap 5, Laravel, Jest, PyTest
+          NodeJS, ExpressJS, ReactJS, NextJS, Tailwind CSS, Bootstrap 5, GraphQL, Laravel, Jest, PyTest
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Software / Tools</BioYear>
@@ -188,7 +191,7 @@ const Home = () => (
         <BioSection>
           <BioYear>-</BioYear>
           Docker, Git, Postman, MySQL, PosgtreSQL, MongoDB, Firebase, Linux,
-          AWS, Arduino IDE, Adobe XD, Adobe Photoshop
+          AWS, Arduino IDE, Figma, Adobe Photoshop
         </BioSection>
         <BioSection mt={{ base: 3 }}>
           <BioYear>Hardware</BioYear>
